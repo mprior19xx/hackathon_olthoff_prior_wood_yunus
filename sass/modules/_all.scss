@@ -2,6 +2,11 @@
     display: none;
 }
 
+main{
+    max-width:90%;
+    margin: 0 auto;
+}
+
 body{
     margin: 0 auto;
     max-width:90%;
@@ -17,4 +22,12 @@ p, ul {
     font-family : $mainFont;
     font-size: 18px;
     color: $fontColour2;
+}
+
+#goHome{
+    margin-right:20px;
+}
+
+#newsletter{
+    margin-left:20px;
 }
