@@ -1,4 +1,11 @@
+.hidden{
+    display: none;
+}
 
+body{
+    margin: 0 auto;
+    max-width:90%;
+}
 
 h1, h2, h3, h4 {
     font-family : $mainFont;
@@ -24,4 +31,20 @@ label{
 
 input{
     font-size:18px;
+}
+
+header{
+    text-align: center;
+    margin:20px;
+}
+
+footer{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#copyright{
+    margin-top:20px;
+    margin-bottom:20px;
 }
