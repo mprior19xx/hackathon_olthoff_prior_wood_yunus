@@ -1,11 +1,20 @@
 export default{
     template: `
     <section id="appLogIn">
-        <h1>This is the app page</h1>
+    <h1> Sign Up For Our Monthly Newsletter</h1>
 
         <form id="my-form"> 
-            <label for="name">Enter Your Name:</label>
+            <label for="name">Enter Your Username:</label>
             <input v-model="user" type="text" name="username" required placeholder="username">
+
+            <label for="name">Enter Your First Name:</label>
+            <input v-model="user" type="text" name="fname" required placeholder="first name">
+
+            <label for="name">Enter Your Last Name:</label>
+            <input v-model="user" type="text" name="ulname" required placeholder="last name">
+
+            <label for="name">Enter Your Country:</label>
+            <input v-model="user" type="text" name="country" required placeholder="Country">
 
             <label for="password">Enter Your Password:</label>
             <input v-model="password" type="password" name="password" required placeholder="password">
@@ -36,8 +45,6 @@ export default{
             this.password="";
         }
     },
-
-
 
     created: function() {
         console.log("app component rendered");

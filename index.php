@@ -17,13 +17,9 @@
 </head>
 <body>
 <main id="app">
-        <!-- `<router-link>` will be rendered as an `<a>` tag by default -->
-        <router-link to="/">Go to Splash</router-link>
-        <router-link to="/app">Go to App</router-link>
+<?php include 'templates/header.php'; ?>
 
-        <!-- ROUTE OUTLET *like a HBS tag*-->
-        <!-- Components will be rendered here -->
-        <router-view></router-view>
+<?php include 'templates/footer.php'; ?>
 
     </main>
     <script defer src="js/main.js" type="module"></script>
