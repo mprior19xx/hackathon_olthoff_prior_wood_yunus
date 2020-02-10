@@ -8,19 +8,19 @@ export default{
     <p> Sign up for our monthly newsletter and get the inside scoop on all the hottest Ontario getaway locations.</p>
 
         <form id="my-form"> 
-            <label for="name">Enter Your Username:</label>
+            <label for="name">Username:</label>
             <input v-model="user" type="text" name="username" required placeholder="username">
 
-            <label for="name">Enter Your First Name:</label>
+            <label for="name">First Name:</label>
             <input v-model="fname" type="text" name="fname" required placeholder="first name">
 
-            <label for="name">Enter Your Last Name:</label>
+            <label for="name">Last Name:</label>
             <input v-model="lname" type="text" name="ulname" required placeholder="last name">
 
-            <label for="name">Enter Your Country:</label>
+            <label for="name">Country:</label>
             <input v-model="country" type="text" name="country" required placeholder="Country">
 
-            <label for="password">Enter Your Password:</label>
+            <label for="password">Password:</label>
             <input v-model="password" type="password" name="password" required placeholder="password">
 
             <input @click.prevent="submitUserData" type="submit" value="Sign Up / Log In">
