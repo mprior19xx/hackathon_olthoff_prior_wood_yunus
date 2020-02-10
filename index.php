@@ -16,11 +16,13 @@
     <title>Ontario Summer</title>
 </head>
 <body>
+
 <main id="app">
-<?php include 'templates/header.php'; ?>
-
-<?php include 'templates/footer.php'; ?>
-
+    <?php include 'templates/header.php'; ?>
+<!-- ROUTE OUTLET *like a HBS tag*-->
+<!-- Components will be rendered here -->
+<router-view></router-view>
+    <?php include 'templates/footer.php'; ?>
     </main>
     <script defer src="js/main.js" type="module"></script>
 </body>

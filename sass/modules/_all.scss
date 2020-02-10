@@ -1,4 +1,27 @@
-// Hides all unwanted items
-.hidden {
-    display: none;
+
+
+h1, h2, h3, h4 {
+    font-family : $mainFont;
+    font-size: 32px;
+}
+
+p, ul {
+    font-family : $secondFont;
+    font-size: 20px;
+}
+
+header, footer {
+    font-family: $mainFont;
+    font-size: 20px;
+}
+
+form{
+    font-family: $mainFont;}
+
+label{
+    font-size: 22px;
+}
+
+input{
+    font-size:18px;
 }
