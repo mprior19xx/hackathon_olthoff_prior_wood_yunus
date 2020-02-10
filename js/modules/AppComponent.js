@@ -1,56 +1,30 @@
 export default{
     template: `
     
-
     <section id="appLogIn">
         <h1> Sign Up for Our Monthly Newsletter </h1>
 
         <p> Sign up for our monthly newsletter and get the inside scoop on all the hottest Ontario getaway locations.</p>
 
-        <form id="my-form"> 
-            <label for="name">Username:</label>
-            <input v-model="user" type="text" name="username" required placeholder="username">
-
+        <form id="my-form" action="./admin/sign-up.php" method="post"> 
             <label for="name">First Name:</label>
-            <input v-model="fname" type="text" name="fname" required placeholder="first name">
+            <input type="text" name="firstname" value="" required placeholder="First Name">
 
             <label for="name">Last Name:</label>
-            <input v-model="lname" type="text" name="ulname" required placeholder="last name">
+            <input type="text" name="lastname" value="" required placeholder="Last Name">
+
+            <label for="email">Email:</label>
+            <input type="text" name="email" value="" required placeholder="Email">
 
             <label for="name">Country:</label>
-            <input v-model="country" type="text" name="country" required placeholder="Country">
+            <input type="text" name="country" value="" required placeholder="Country">
 
-            <label for="password">Password:</label>
-            <input v-model="password" type="password" name="password" required placeholder="password">
-
-            <input @click.prevent="submitUserData" type="submit" value="Sign Up / Log In">
+            <button name="submit" type="submit">Sign-Up</button>
         </form>
     </section>
     `,
 
-    data: function(){
-        return{
-            user: "",
-            password: "",
-        }
-    },
-
-    methods: {
-        submitUserData() {
-            //do a fetch using POST method
-            //refer to node mailer ex from last semester
-            //how to get data from a form into a fetch call
-            console.log("hit the API pan is asking for, which should be in the root VUE instance.");
-
-            document.querySelector('form').reset();
-
-            //reset the username and password data in the app
-            this.user="";
-            this.password="";
-        }
-    },
-
     created: function() {
-        console.log("app component rendered");
+        console.log("register component rendered");
     },
 };
