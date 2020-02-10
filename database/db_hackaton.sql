@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:8889
--- Generation Time: Feb 10, 2020 at 03:41 AM
+-- Generation Time: Feb 10, 2020 at 09:59 PM
 -- Server version: 5.7.26
 -- PHP Version: 7.3.8
 
@@ -32,8 +32,8 @@ CREATE TABLE `tbl_signup` (
   `L_Name` varchar(20) NOT NULL,
   `Email` varchar(50) NOT NULL,
   `Country` varchar(20) NOT NULL,
-  `Subscribe_Date` date NOT NULL,
-  `Update_Date` date NOT NULL
+  `Subscribe_Date` varchar(15) NOT NULL,
+  `Update_Date` varchar(15) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
@@ -54,7 +54,7 @@ ALTER TABLE `tbl_signup`
 -- AUTO_INCREMENT for table `tbl_signup`
 --
 ALTER TABLE `tbl_signup`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
