@@ -47,7 +47,8 @@ export default{
             </div>
 
             <div id="contactMain"> 
-                <h2> Get In Contact </h2>
+                <h2 id="contactTitle"> Get In Contact </h2>
+
                 <ul id="contactForm">
                     <li>Phone: 555-555-5555</li>
                     <li>Email: xxx@xxx.xxx</li>

@@ -3,9 +3,9 @@ export default{
     
 
     <section id="appLogIn">
-    <h1> Sign Up for Our Monthly Newsletter </h1>
+        <h1> Sign Up for Our Monthly Newsletter </h1>
 
-    <p> Sign up for our monthly newsletter and get the inside scoop on all the hottest Ontario getaway locations.</p>
+        <p> Sign up for our monthly newsletter and get the inside scoop on all the hottest Ontario getaway locations.</p>
 
         <form id="my-form"> 
             <label for="name">Username:</label>
