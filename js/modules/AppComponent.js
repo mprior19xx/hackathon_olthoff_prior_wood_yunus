@@ -2,7 +2,7 @@ export default{
     template: `
     
     <section id="appLogIn">
-        <h1> Sign Up for Our Monthly Newsletter </h1>
+        <h2> Sign Up for Our Monthly Newsletter </h2>
 
         <p> Sign up for our monthly newsletter and get the inside scoop on all the hottest Ontario getaway locations.</p>
 

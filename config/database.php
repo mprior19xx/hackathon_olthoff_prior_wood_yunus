@@ -4,11 +4,11 @@ class Database
     // Note: specify your own database credentials
     private $host = "localhost";
 
-    private $db_name = "db_hackaton";
+    private $db_name = "db_hackathon";
 
     private $username = "root";
 
-    private $password = "root"; //no password on windows
+    private $password = ""; //no password on windows
 
     private static $instance = null;
 

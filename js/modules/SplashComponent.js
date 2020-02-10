@@ -5,7 +5,7 @@ export default{
             <h1 class="hidden">{{message}}</h1>
 
             <div id="heroCon">
-                <video id="commercial" autoplay>
+                <video id="commercial" autoplay loop controls poster="images/video_poster.jpg">
                     <source src="video/ontario_commercial.mp4" type="video/mp4">
                     Your browser does not support this video format.
                 </video>
@@ -20,7 +20,7 @@ export default{
             <div class="destinationMain">
                 <h3> Algonquin Park </h3>
                 <div class="destinationImg">
-                    <img src="images/algonquin_park.png">
+                    <img class="splashImg"src="images/1.jpg">
                     <p> Boasting etcetcetc Algonquin park is a camping and hiking destination. </p>
                 </div>
             </div>
@@ -28,7 +28,7 @@ export default{
             <div class="destinationMain">
                 <h3> Niagara Falls </h3>
                 <div class="destinationImg">
-                    <img src="images/niagara_falls.png">
+                    <img class="splashImg" src="images/2.jpg">
                     <p> Come get soaking wet ;) This dude loves it here. </p>
                 </div>
             </div>
@@ -36,7 +36,7 @@ export default{
             <div class="destinationMain">
                 <h3> Beaches</h3>
                 <div class="destinationImg">
-                    <img src="images/man_on_beach.png">
+                    <img class="splashImg" src="images/3.jpg">
                     <p> Look at this dude on the beach. Don't you wanna be him?</p>
                 </div>
             </div>
@@ -44,6 +44,16 @@ export default{
 
             <div id=signUpLink> 
                 <h2> Sign Up For Our Newsletter Today </h2>
+            </div>
+
+            <div id="imgGallery">
+                <div class="column">
+                    <img class="gallImg" src="images/5.jpg">
+                    <img class="gallImg" src="images/6.jpg">
+                    <img class="gallImg" src="images/8.jpg">
+                    <img class="gallImg" src="images/9.jpg">
+                    <img class="gallImg" src="images/10.jpg">
+                </div>
             </div>
 
             <div id="contactMain"> 
