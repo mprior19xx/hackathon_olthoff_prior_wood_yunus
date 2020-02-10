@@ -1,2 +1,11 @@
-# hackathon_olthoff_prior_wood_yunus
-Hackathon - Feb 2020 - Scott Olthoff, Mike Prior, Philip Wood, Brisk Yunus
+# HACKATON
+## Ontario Summer?
+
+Currently a work in progress..
+
+### Authors
+
+* Scott Olthoff - Motion Designer
+* Brisk Yunus - Graphic Designer
+* Michael Prior - Front End Developer
+* Philip Wood - Back End Developer
