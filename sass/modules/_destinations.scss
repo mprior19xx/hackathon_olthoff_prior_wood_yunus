@@ -1,0 +1,16 @@
+.destinationMain{
+    display:flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.destinationImg{
+    display:flex;
+    flex-direction: row;
+}
+
+.destinationImg Img{
+    margin-right:50px;
+}

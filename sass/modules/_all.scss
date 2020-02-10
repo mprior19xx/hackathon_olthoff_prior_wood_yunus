@@ -9,42 +9,12 @@ body{
 
 h1, h2, h3, h4 {
     font-family : $mainFont;
-    font-size: 32px;
+    font-size: 20px;
+    color: $fontColour;
 }
 
 p, ul {
-    font-family : $secondFont;
-    font-size: 20px;
-}
-
-header, footer {
-    font-family: $mainFont;
-    font-size: 20px;
-}
-
-form{
-    font-family: $mainFont;}
-
-label{
-    font-size: 22px;
-}
-
-input{
-    font-size:18px;
-}
-
-header{
-    text-align: center;
-    margin:20px;
-}
-
-footer{
-    display:flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-#copyright{
-    margin-top:20px;
-    margin-bottom:20px;
+    font-family : $mainFont;
+    font-size: 18px;
+    color: $fontColour2;
 }
