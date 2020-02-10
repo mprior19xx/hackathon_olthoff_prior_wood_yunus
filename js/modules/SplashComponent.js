@@ -4,11 +4,9 @@ export default{
     <div id="container">
         <h1 class="hidden">{{message}}</h1>
 
-        <div id="splashMain"> 
-            <img src="images/man_on_cliff.png" id="splashPic1">
-            <img src="images/niagara_falls.png" id="splashPic2">
-            <img src="images/blue_sky.png" id="splashPic3">
-        </div>
+
+    <object id="commercial" data="video/ontario_commercial.mp4">
+    
 
         <div class="destinationMain">
             <h2> Popular Ontario Destinations </h2>

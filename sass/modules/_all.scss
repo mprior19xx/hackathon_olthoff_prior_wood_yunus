@@ -13,7 +13,7 @@ h1, h2, h3, h4 {
 }
 
 p, ul {
-    font-family : $secondFont;
+    font-family : $mainFont;
     font-size: 20px;
 }
 
@@ -42,6 +42,7 @@ footer{
     display:flex;
     flex-direction: column;
     text-align: center;
+    margin-top: 25px;
 }
 
 #copyright{

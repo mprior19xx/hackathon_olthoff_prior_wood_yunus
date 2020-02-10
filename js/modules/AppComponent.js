@@ -12,13 +12,13 @@ export default{
             <input v-model="user" type="text" name="username" required placeholder="username">
 
             <label for="name">Enter Your First Name:</label>
-            <input v-model="user" type="text" name="fname" required placeholder="first name">
+            <input v-model="fname" type="text" name="fname" required placeholder="first name">
 
             <label for="name">Enter Your Last Name:</label>
-            <input v-model="user" type="text" name="ulname" required placeholder="last name">
+            <input v-model="lname" type="text" name="ulname" required placeholder="last name">
 
             <label for="name">Enter Your Country:</label>
-            <input v-model="user" type="text" name="country" required placeholder="Country">
+            <input v-model="country" type="text" name="country" required placeholder="Country">
 
             <label for="password">Enter Your Password:</label>
             <input v-model="password" type="password" name="password" required placeholder="password">

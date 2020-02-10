@@ -1,10 +1,11 @@
 img{
     max-width:100%;
     width:30%;
+    opacity:0.7;
 }
 
 img:hover{
-    width:32%;
+    opacity:1.0;
 }
 
 #splashPage{
@@ -12,6 +13,7 @@ img:hover{
     flex-direction: column;
     margin: 0 auto;
 }
+
 
 #splashMain{
     display:flex;
