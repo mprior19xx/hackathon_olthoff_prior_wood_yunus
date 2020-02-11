@@ -43,7 +43,11 @@
                         ':id'=>$id
                     )
                 );
-                return "Thanks for re-subscribing to our newsletter!";
+                //returning users
+                return '<div class="redirectImg">
+                <img src="../images/thankyou_resubscribing.jpg">
+                </div>
+                ';
             }
         }else{
             $submit_query = 'INSERT INTO `tbl_signup` (F_Name, L_Name, Email, Country, Subscribe_Date, Update_Date ) VALUES (:fname, :lname, :email, :country, :dat, :dat);';
@@ -57,7 +61,12 @@
                     ':dat'=>$date
                 )
             );
-            return "Thanks for subscribing to our newsletter!";
+
+            //new subs
+            return '<div class="redirectImg">
+            <img src="../images/thankyou_subscribing.jpg">
+            </div>
+            ';
         }
     }
 ?>
