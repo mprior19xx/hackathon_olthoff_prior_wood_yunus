@@ -5,12 +5,11 @@ A multipage website showcasing tourism in Ontario, designed for the Hackathon pr
 
 ## Prerequisites
 
-The following are needed to continue
+The following are needed to continue:
 
 * [MAMP / WAMP](https://www.mamp.info/en/, "MAMP / WAMP")
 
 * [Composer](https://getcomposer.org/doc/00-intro.md, "Composer")
-
 
 ## Getting Started
 
