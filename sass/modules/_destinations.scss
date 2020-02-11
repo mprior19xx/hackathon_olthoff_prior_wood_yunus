@@ -4,6 +4,14 @@
     margin: 0 auto;
 }
 
+#title{
+    font-size: 18px;
+}
+
+#dest1{
+    margin: 0 auto;
+}
+
 #destinationInto p {
     max-width:90%;
 }
@@ -16,17 +24,23 @@
 .destinationImg{
     display:flex;
     flex-direction: row;
-    margin: 0 auto;
-    justify-content: center;
+    justify-content: space-between;
+    margin-top:10px;
 }
 
 .destinationImg img{
-    max-width: 90%;
+    max-width: 48%;
 }
 
 .destinationDesc{
     display:flex;
     margin: 0 auto;
-    max-width:90%;
+    margin-top:10px;
+}
+
+.visitText{
+    font-size:24px;
+    text-align: center;
+    margin: 0 auto;
 }
 
