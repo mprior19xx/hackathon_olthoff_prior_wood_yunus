@@ -2,7 +2,7 @@ export default{
     template: `
     
     <section id="appLogIn">
-        <h2> Ontario Summer Monthly Newsletter </h2>7
+        <h2> Ontario Summer Monthly Newsletter </h2>
        
 
         <div id="signInInfo">

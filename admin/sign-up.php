@@ -9,6 +9,7 @@
     // listen for submit post, grab data     
     if(isset($_POST['submit'])){
         $date = date('Y-m-d');
+        //$date = date("H:i:s"); 
         $fname = trim($_POST['firstname']);
         $lname = trim($_POST['lastname']);
         $email = trim($_POST['email']);
