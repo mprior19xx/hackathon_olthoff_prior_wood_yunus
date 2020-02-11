@@ -1,17 +1,18 @@
 
 header{
-    margin-top:15px;
+    margin-top:25px;
+    padding:20px;
 }
 
 #headerLinks{
     display:flex;
-    margin-bottom:10px;
     font-size:18px;
 }
 
 a{
     text-decoration: none;
     color: $linkColour;
+    margin-top:15px;
 }
 
 a:hover{
@@ -21,5 +22,4 @@ a:hover{
 
 #headerImg{
     margin: 0 auto;
-    margin-bottom:5px;
 }
