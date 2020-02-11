@@ -1,6 +1,6 @@
 //MEDIA QUERIES
 
-@media only screen and (min-width: 760px){
+@media only screen and (min-width: 620px){
     body{
         max-width:1400px;
     }
@@ -11,15 +11,15 @@
     }
 
     header{margin-top:5px;
-    margin:0 auto;
-    justify-content: center;
-    padding:25px;}
+    padding:30px;}
 
     #headerImg{
         max-width:40%;
     }
 
-    a{margin-top:5px;}
+    #headerLinks{
+        font-size: 18px;
+    }
 
     #heroCon{
         margin-top:5px;
@@ -37,7 +37,7 @@
     .destinationImg Img{
         margin-top:50px;
         margin-bottom:50px;
-        max-width:100%;
+        width:400px;
     }
 
     #dest{
@@ -56,10 +56,31 @@
 
     #dest3{padding:60px;}
 
+    footer{font-size:20px;}
+
+    .visitText{font-size:42px;}
+
+    #appLogIn{
+        padding:80px;
+        margin-top:50px;
+    }
+
+    #my-form{
+        margin-top:60px;
+    }
+
     @media only screen and (min-width: 1070px){
         h3{
-            font-size: 24px;
+            font-size: 40px;
         }
+
+        .destinationImg Img{
+            max-width:100%;
+        }
+
+        header{padding:30px;
+        margin:0 auto;
+        justify-content: center;}
     
         p{font-size: 20px;}
 
@@ -70,6 +91,20 @@
         #dest2{padding:80px;}
 
         #dest3{padding:80px;}
+
+        #appLogIn{
+            padding:80px;
+        }
+
+        #my-form{
+            margin-top:30px;
+        }
+
+        input{width:800px;}
     }
     
+    @media only screen and (min-width: 1070px){
+        header{padding:60px;}
+
+    }
 }

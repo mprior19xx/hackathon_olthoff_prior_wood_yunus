@@ -2,9 +2,12 @@ export default{
     template: `
     
     <section id="appLogIn">
-        <h2> Ontario Summer Monthly Newsletter </h2>
+        <h2> Ontario Summer Monthly Newsletter </h2>7
+       
 
-        <p> Sign up for our monthly newsletter and get the inside scoop on all the hottest Ontario getaway locations! Subscribers will gain access to exclusive offers and reward programs through Tourism Ontario.</p>
+        <div id="signInInfo">
+            <p> Sign up for our monthly newsletter and get the inside scoop on all the hottest Ontario getaway locations! Subscribers will gain access to exclusive offers and reward programs through Tourism Ontario.</p>
+        </div>
 
         <form id="my-form" action="./admin/sign-up.php" method="post"> 
             <label for="name">First Name:</label>
