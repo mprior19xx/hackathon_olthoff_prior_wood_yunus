@@ -2,6 +2,12 @@
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    background-color: $bgColour2;
+    padding:10px;
+}
+
+#destinationIntro h3{
+    color: $fontColourTwo;
 }
 
 #title{
@@ -9,7 +15,19 @@
 }
 
 #dest1{
-    margin: 0 auto;
+    padding:10px;
+}
+
+#dest2 h3{
+    color: $fontColourTwo;
+}
+
+#dest2{background-color: $bgColour2;
+    padding:10px;
+}
+
+#dest3{
+    padding:10px;
 }
 
 #destinationInto p {
@@ -19,6 +37,7 @@
 .destinationMain{
     display:flex;
     flex-direction: column;
+    color: $fontColour;
 }
 
 .destinationImg{
@@ -38,9 +57,15 @@
     margin-top:10px;
 }
 
+#gallery{
+    margin-top:30px;
+    background-color: $bgColour2;
+    padding: 10px;
+}
+
 .visitText{
     font-size:24px;
     text-align: center;
-    margin: 0 auto;
+    color: $fontColourTwo;
 }
 
