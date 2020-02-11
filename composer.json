@@ -1,0 +1,13 @@
+{
+    "name": "philip/hackathon_olthoff_prior_wood_yunus",
+    "description": "Mailtime",
+    "authors": [
+        {
+            "name": "Philip",
+            "email": "philipwood0912@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.1"
+    }
+}

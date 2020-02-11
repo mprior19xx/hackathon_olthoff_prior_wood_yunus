@@ -1,5 +1,12 @@
 <?php
+    //files needed to run PHPmailer
+    use PHPMailer\PHPMailer\PHPMailer;
+    use PHPMailer\PHPMailer\SMTP;
+    use PHPMailer\PHPMailer\Exception;
     require_once '../load.php';
+    require '../vendor/autoload.php';
+
+    // listen for submit post, grab data     
     if(isset($_POST['submit'])){
         $date = date('Y-m-d');
         $fname = trim($_POST['firstname']);
@@ -9,28 +16,55 @@
         $message = db_add($date, $fname, $lname, $email, $country);
     }
 
+    //redirect function
     function redirect_to($location) {
         if($location != null){
             header('Location: '.$location);
             exit;
         }
     }
+
     //function for sending mail
     function send_email($full_name, $email, $subject, $mail_message){
-        //filter name
-        $full_name = filter_var($full_name, FILTER_SANITIZE_STRING);
-        //filter email
-        $email = str_replace(array("\r", "\n", "%0a", "%0d"), '', $email);
-        $email = filter_var($email, FILTER_VALIDATE_EMAIL);
-        //filter subject
-        $subject = filter_var($subject, FILTER_SANITIZE_STRING);
-        //add headers
-        $headers = array(
-            'From'=>'a_wood60810@fanshaweonline.ca',
-            'Reply-To'=>$full_name.'<'.$email.'>'
-        );
-        //echo mail($email, $subject, $mail_message, $headers);
-        mail($email, $subject, $mail_message, $headers);
+        $mail = new PHPMailer(true);
+        try {
+            //Server settings                    
+            $mail->isSMTP();                                            
+            $mail->Host       = 'smtp.gmail.com';                       
+            $mail->SMTPAuth   = true;                                   
+            $mail->Username   = 'mailtester0912@gmail.com';             
+            $mail->Password   = chr(105).chr(109).'s'.chr(111).'hi'.chr(103).chr(104);                             
+            $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         
+            $mail->Port       = 587;                                    
+
+            //Recipients
+            $mail->setFrom('from@test.com', 'IPD BOYS');
+            $mail->addAddress($email, $full_name);                      
+
+            // Content
+            $mail->isHTML(true);                                  
+            $mail->Subject = $subject;
+            $mail->Body    = $mail_message;
+
+            $mail->send();
+        } catch (Exception $e) {
+            //echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+        }
+
+        // //filter name
+        // $full_name = filter_var($full_name, FILTER_SANITIZE_STRING);
+        // //filter email
+        // $email = str_replace(array("\r", "\n", "%0a", "%0d"), '', $email);
+        // $email = filter_var($email, FILTER_VALIDATE_EMAIL);
+        // //filter subject
+        // $subject = filter_var($subject, FILTER_SANITIZE_STRING);
+        // //add headers
+        // $headers = array(
+        //     'From'=>'a_wood60810@fanshaweonline.ca',
+        //     'Reply-To'=>$full_name.'<'.$email.'>'
+        // );
+        // //echo mail($email, $subject, $mail_message, $headers);
+        // mail($email, $subject, $mail_message, $headers);
     }
 
     function db_add($date, $fname, $lname, $email, $country) {
