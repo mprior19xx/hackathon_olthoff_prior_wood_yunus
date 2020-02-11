@@ -110,7 +110,6 @@
                 
                 return '<div class="redirectImg">
                 <img src="../images/thankyou_resubscribing.jpg">
-                <p>Thank You for Resubscribing. An email will be sent to your inbox shortly.</p>
                 </div>
                 ';
 
@@ -136,7 +135,6 @@
             //new subs
             return '<div class="redirectImg">
             <img src="../images/thankyou_subscribing.jpg">
-            <p>Thank You For Subscribing! An email will be sent to your inbox shortly.</p>
             </div>
             ';
         }
@@ -155,7 +153,7 @@
 <body>
     <?php echo $message;?>
     <form action="sign-up.php" method="get">
-        <button type="submit" name="submit">Go To Home Page</button>
+        <button id="homepage" type="submit" name="submit">Go To Home Page</button>
     </form>
     <?php
         if(isset($_GET['submit'])){
