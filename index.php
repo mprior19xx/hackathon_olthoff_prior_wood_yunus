@@ -18,10 +18,11 @@
 </head>
 <body>
 
+
 <main id="app">
     <?php include 'templates/header.php'; ?>
-<!-- ROUTE OUTLET *like a HBS tag*-->
-<!-- Components will be rendered here -->
+    <!-- ROUTE OUTLET *like a HBS tag*-->
+    <!-- Components will be rendered here -->
 <router-view></router-view>
     <?php include 'templates/footer.php'; ?>
     </main>

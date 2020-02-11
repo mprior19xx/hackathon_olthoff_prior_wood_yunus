@@ -1,12 +1,30 @@
+
 header{
     font-family: $mainFont;
-    font-size: 16px;
-    text-align: center;
-    margin-top:25px;
-    margin-bottom:35px;
+    font-size: 12px;
+    margin-top:15px;
 }
+
+#goHome{
+    display:flex;
+}
+
+#routes{
+    display:flex;
+}
+
+a{
+    text-decoration: none;
+    color: $linkColour;
+    margin-bottom:15px;
+}
+
+a:hover{
+    color: $linkHover;
+}
+
 
 #headerImg{
     margin: 0 auto;
-    margin-top:20px;
+    margin-bottom:5px;
 }
