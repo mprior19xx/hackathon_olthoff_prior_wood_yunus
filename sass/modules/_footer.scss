@@ -2,12 +2,15 @@ footer{
     font-family: $mainFont;
     color: $fontColour;
     display:flex;
+    margin: 0 auto;
     flex-direction: column;
     margin-top: 30px;
     font-size:12px;
+    max-width:90%;
 }
 
-#moreInfo{display:flex;
+#moreInfo{
+    display:flex;
     flex-direction: row;
 }
 

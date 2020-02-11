@@ -8,10 +8,10 @@ main{
 }
 
 body{
+    display:flex;
     margin: 0 auto;
-    max-width:90%;
+    max-width:100%;
 }
 
 h3{
-    font-size: 18px;
-}
+    font-size: 18px;}

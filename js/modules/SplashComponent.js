@@ -17,7 +17,9 @@ export default{
 
                 <div id="destinationIntro">
                     <h3 class="heading"> Popular Ontario Destinations </h3>
-                    <p> Come and see all that Ontario has to offer. From sprawling green forests to beautiful rock formations and beaches, Ontario has something for everyone to love. Come visit one of the many popular attractions today!</p>
+                    <div id="introDesc">
+                        <p> Come and see all that Ontario has to offer. From sprawling green forests to beautiful rock formations and beaches, Ontario has something for everyone to love. Come visit one of the many popular attractions today!</p>
+                    </div>
                 </div>
 
                 <div id="dest1">

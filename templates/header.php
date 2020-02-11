@@ -5,7 +5,7 @@
             <img id="headerImg" src="images/os_logo.svg" alt="Ontario Summer Logo">
         </a>    
     </div>
-<!-- `<router-link>` will be rendered as an `<a>` tag by default -->
+    <!-- `<router-link>` will be rendered as an `<a>` tag by default -->
     <div id="headerLinks">
         <!-- <router-link id="goHome" to="/"></router-link>  -->
         <router-link id="newsletter" to="/app">Sign Up For Our Newsletter</router-link>
