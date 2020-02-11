@@ -51,6 +51,8 @@
             //echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
         }
 
+        // Block of mail code, works on mac - mail function returns true - no email is sent though
+
         // //filter name
         // $full_name = filter_var($full_name, FILTER_SANITIZE_STRING);
         // //filter email
