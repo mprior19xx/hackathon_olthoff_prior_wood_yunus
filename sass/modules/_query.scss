@@ -1,0 +1,75 @@
+//MEDIA QUERIES
+
+@media only screen and (min-width: 760px){
+    body{
+        max-width:1400px;
+    }
+
+    #galleryPics{
+        margin:0 auto;
+        max-width:960px;
+    }
+
+    header{margin-top:5px;
+    margin:0 auto;
+    justify-content: center;
+    padding:25px;}
+
+    #headerImg{
+        max-width:40%;
+    }
+
+    a{margin-top:5px;}
+
+    #heroCon{
+        margin-top:5px;
+    }
+
+    #commercial{
+        margin-bottom:100px;
+    }
+
+    .destinationImg{
+        margin:0 auto;
+        max-width:960px;
+    }
+
+    .destinationImg Img{
+        margin-top:50px;
+        margin-bottom:50px;
+        max-width:100%;
+    }
+
+    #dest{
+        padding:60px;
+    }
+
+    h3{
+        font-size: 22px;
+    }
+
+    p{font-size: 18px;}
+
+    #dest1{padding:60px;}
+
+    #dest2{padding:60px;}
+
+    #dest3{padding:60px;}
+
+    @media only screen and (min-width: 1070px){
+        h3{
+            font-size: 24px;
+        }
+    
+        p{font-size: 20px;}
+
+        #dest{padding:80px;}
+
+        #dest1{padding:80px;}
+
+        #dest2{padding:80px;}
+
+        #dest3{padding:80px;}
+    }
+    
+}

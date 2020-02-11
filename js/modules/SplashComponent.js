@@ -15,9 +15,9 @@ export default{
 
             <div class="destinationMain">
 
-                <div id="destinationIntro">
-                    <h3 class="heading"> Popular Ontario Destinations </h3>
-                    <div id="introDesc">
+                <div id="dest">
+                    <h3> Popular Ontario Destinations </h3>
+                    <div class="destinationDesc">
                         <p> Come and see all that Ontario has to offer. From sprawling green forests to beautiful rock formations and beaches, Ontario has something for everyone to love. Come visit one of the many popular attractions today!</p>
                     </div>
                 </div>
@@ -63,6 +63,7 @@ export default{
             </div>
 
             <div id="gallery">
+                <div id="galleryPics">
                     <div class="destinationImg">
                         <img src="images/family_outside.jpg">
                         <img src="images/toronto.jpg">
@@ -76,6 +77,7 @@ export default{
                         <img src="images/toronto2.jpg">
                         <img src="images/couple_walking.jpg">
                     </div>  
+                </div>
             </div>
         </div>
     </section>
