@@ -6,7 +6,7 @@
         </a>    
     </div>
 <!-- `<router-link>` will be rendered as an `<a>` tag by default -->
-    <div id="routes">
+    <div id="headerLinks">
         <!-- <router-link id="goHome" to="/"></router-link>  -->
         <router-link id="newsletter" to="/app">Sign Up For Our Newsletter</router-link>
     </div>

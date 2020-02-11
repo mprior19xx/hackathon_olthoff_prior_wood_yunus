@@ -1,22 +1,18 @@
 
 header{
     font-family: $mainFont;
-    font-size: 12px;
     margin-top:15px;
 }
 
-#goHome{
+#headerLinks{
     display:flex;
-}
-
-#routes{
-    display:flex;
+    margin-bottom:10px;
+    font-size:18px;
 }
 
 a{
     text-decoration: none;
     color: $linkColour;
-    margin-bottom:15px;
 }
 
 a:hover{
