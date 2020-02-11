@@ -16,7 +16,10 @@
     padding:20px;
     max-width:100%;
     margin-top:35px;
+    color: white;
 }
+
+#dest h3{ color: white;}
 
 #dest1{
     padding:20px;
@@ -24,7 +27,7 @@
 }
 
 #dest2 h3{
-    color: $fontColourTwo;
+    color: white;
 }
 
 #dest2{
@@ -32,6 +35,7 @@
     max-width:100%;
     padding:20px;
     margin-top:30px;
+    color: white;
 }
 
 #dest3{
@@ -72,7 +76,7 @@
 }
 
 .visitText{
-    font-size:22px;
+    font-size:30px;
     text-align: center;
-    color: $fontColourTwo;
+    color: white;
 }
