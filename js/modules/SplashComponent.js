@@ -18,26 +18,26 @@ export default{
             </div>
 
             <div class="destinationMain">
-                <h3> Algonquin Park </h3>
+                <h3> Tobermory </h3>
                 <div class="destinationImg">
                     <img class="splashImg"src="images/1.jpg">
-                    <p> Boasting etcetcetc Algonquin park is a camping and hiking destination. </p>
+                    <p> Where water and land meet sky. Take a glass-bottomed boat to Flowerpot Island or rent a SUP where you can explore the coastline. Comb the village galleries and shops for treasures. Your first impression is breathtaking. Your last is unforgettable. </p>
                 </div>
             </div>
 
             <div class="destinationMain">
-                <h3> Niagara Falls </h3>
+                <h3> Bon Echo </h3>
                 <div class="destinationImg">
                     <img class="splashImg" src="images/2.jpg">
-                    <p> Come get soaking wet ;) This dude loves it here. </p>
+                    <p> Bon Echo has over 500 campsites that include over 200 electrical-serviced sites. There are over 40 km of hiking trails as well as many canoes as well as kayak opportunities in more than 15 lakes and bodies of water. The park also has a rich cultural history and is a sacred place with over 260 Indigenous pictographs within the boundaries. </p>
                 </div>
             </div>
 
             <div class="destinationMain">
-                <h3> Beaches</h3>
+                <h3> Macgregor Point Provincial Park </h3>
                 <div class="destinationImg">
                     <img class="splashImg" src="images/3.jpg">
-                    <p> Look at this dude on the beach. Don't you wanna be him?</p>
+                    <p> Located on the Lake Huron Shoreline MacGregor Point Provincial Park offers more than 300 beautiful campsites ranging from private, rustic to family compounds. With playgrounds, trails, and even a private beach, MacGregor Park has something for everyone in the family. Hikes with dozens of views for unforgettable memories.</p>
                 </div>
             </div>
         </div>
@@ -46,14 +46,13 @@ export default{
                 <h2> Sign Up For Our Newsletter Today </h2>
             </div>
 
-            <div id="imgGallery">
-                <div class="column">
-                    <img class="gallImg" src="images/5.jpg">
-                    <img class="gallImg" src="images/6.jpg">
-                    <img class="gallImg" src="images/8.jpg">
-                    <img class="gallImg" src="images/9.jpg">
-                    <img class="gallImg" src="images/10.jpg">
-                </div>
+            <div id="gallery">
+                    <img class="box" src="images/5.jpg">
+                    <img class="box" src="images/6.jpg">
+                    <img class="box" src="images/8.jpg">
+                    <img class="box" src="images/9.jpg">
+                    <img class="box" src="images/10.jpg">
+                    <img class="box" src="images/7.jpg">
             </div>
 
             <div id="contactMain"> 

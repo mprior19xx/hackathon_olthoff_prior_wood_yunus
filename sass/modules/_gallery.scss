@@ -1,18 +1,9 @@
-#imgGallery{
-    width: 90%;
-    display: flex;
-    margin: 0 auto;
-    justify-content: center;
-}
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
+  #gallery{
+      display:inline;
+      padding:5px;
   }
 
-  .column{
-      margin:0 auto;
-      justify-content: center;
+  .box{
+      width:31%;
   }
-  
