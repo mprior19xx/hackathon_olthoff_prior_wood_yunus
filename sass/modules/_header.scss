@@ -13,6 +13,7 @@ a{
     text-decoration: none;
     color: $linkColour;
     margin-top:15px;
+    max-width: 960px;
 }
 
 a:hover{
@@ -22,4 +23,5 @@ a:hover{
 
 #headerImg{
     margin: 0 auto;
+    max-width: 80%;
 }

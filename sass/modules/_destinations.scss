@@ -1,22 +1,21 @@
-#destinationIntro{
-    display: flex;
-    flex-direction: column;
-    background-color: $bgColour2;
-    padding:20px;
-    max-width:100%;
-    margin-top:35px;
-}
 
-#introDesc{
-    max-width:90%;
-}
-
-#destinationIntro h3{
+#dest h3{
     color: $fontColourTwo;
 }
 
 #title{
     font-size: 18px;
+}
+
+#dest{
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: $bgColour2;
+    padding:20px;
+    max-width:100%;
+    margin-top:35px;
 }
 
 #dest1{
@@ -62,6 +61,7 @@
 .destinationDesc{
     display:flex;
     margin: 0 auto;
+    justify-content: center;
     margin-top:15px;
 }
 
@@ -76,4 +76,3 @@
     text-align: center;
     color: $fontColourTwo;
 }
-
