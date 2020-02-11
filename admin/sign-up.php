@@ -71,7 +71,13 @@
                 $subject = "Re-subscription";
                 $mail_message = "Thank you for re-subscribing to our newsletter!";
                 send_email($full_name, $email, $subject, $mail_message);
-                return "Thanks for re-subscribing to our newsletter!";
+                
+                return '<div class="redirectImg">
+                <img src="../images/thankyou_resubscribing.jpg">
+                <p>Thank You for Resubscribing. An email will be sent to your inbox shortly.</p>
+                </div>
+                ';
+
             }
             //if no match is found, insert into db
         }else{
@@ -89,7 +95,14 @@
             $subject = "Subscription";
             $mail_message = "Thank you for subscribing to our newsletter!";
             send_email($full_name, $email, $subject, $mail_message);
-            return "Thanks for subscribing to our newsletter!";
+           
+
+            //new subs
+            return '<div class="redirectImg">
+            <img src="../images/thankyou_subscribing.jpg">
+            <p>Thank You For Subscribing! An email will be sent to your inbox shortly.</p>
+            </div>
+            ';
         }
     }
 ?>
@@ -106,7 +119,7 @@
 <body>
     <?php echo $message;?>
     <form action="sign-up.php" method="get">
-        <button type="submit" name="submit">HOME</button>
+        <button type="submit" name="submit">Go To Home Page</button>
     </form>
     <?php
         if(isset($_GET['submit'])){
