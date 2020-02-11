@@ -5,7 +5,7 @@ export default{
             <h1 class="hidden">{{message}}</h1>
 
             <div id="heroCon">
-                <video id="commercial" autoplay loop controls poster="images/video_poster.jpg">
+                <video id="commercial" loop controls poster="images/video_poster.jpg">
                     <source src="video/ontario_commercial.mp4" type="video/mp4">
                     Your browser does not support this video format.
                 </video>
@@ -15,10 +15,9 @@ export default{
 
             <div class="destinationMain">
 
-                
-                <div id="destinationIntro2">
-                    <h3> Popular Ontario Destinations </h3>
-                    <p> Come and visit some of the best sights in Canada! Ontario Summer is the shit. Its nice here.</p>
+                <div id="destinationIntro">
+                    <h3 class="heading"> Popular Ontario Destinations </h3>
+                    <p> Come and see all that Ontario has to offer. From sprawling green forests to beautiful rock formations and beaches, Ontario has something for everyone to love. Come visit one of the many popular attractions today!</p>
                 </div>
 
                 <div id="dest1">
@@ -30,9 +29,7 @@ export default{
                     </div>
                     <div class="destinationDesc">
                         <p> Where water and land meet sky. Take a glass-bottomed boat to Flowerpot Island or rent a SUP where you can explore the coastline. Comb the village galleries and shops for treasures. Your first impression is breathtaking. Your last is unforgettable. </p>
-                    </div>
-
-                    
+                    </div>  
                 </div>
 
                 <div id="dest2">
@@ -63,7 +60,7 @@ export default{
                 </div>
             </div>
 
-            <div>
+            <div id="gallery">
                     <div class="destinationImg">
                         <img src="images/family_outside.jpg">
                         <img src="images/toronto.jpg">

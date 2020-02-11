@@ -4,6 +4,7 @@
 
 main{
     margin: 0 auto;
+    font-family : $mainFont;
 }
 
 body{
@@ -11,13 +12,6 @@ body{
     max-width:90%;
 }
 
-h1, h2, h3, h4 {
-    font-family : $mainFont;
-    color: $fontColour;
-}
-
-p, ul {
-    font-family : $mainFont;
-    color: $secondaryColour;
-    font-size: 12px;
+h3{
+    font-size: 18px;
 }
