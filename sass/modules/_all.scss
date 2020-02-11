@@ -3,7 +3,6 @@
 }
 
 main{
-    max-width:90%;
     margin: 0 auto;
 }
 
@@ -14,20 +13,11 @@ body{
 
 h1, h2, h3, h4 {
     font-family : $mainFont;
-    font-size: 20px;
     color: $fontColour;
 }
 
 p, ul {
     font-family : $mainFont;
-    font-size: 18px;
-    color: $fontColour2;
-}
-
-#goHome{
-    margin-right:20px;
-}
-
-#newsletter{
-    margin-left:20px;
+    color: $secondaryColour;
+    font-size: 12px;
 }

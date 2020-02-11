@@ -30,7 +30,7 @@
             'Reply-To'=>$full_name.'<'.$email.'>'
         );
         //echo mail($email, $subject, $mail_message, $headers);
-        return mail($email, $subject, $mail_message, $headers);
+        mail($email, $subject, $mail_message, $headers);
     }
 
     function db_add($date, $fname, $lname, $email, $country) {
